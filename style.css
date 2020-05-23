@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Chelsea Market', cursive;
+    color: #FFF;
+}
+
+.navbar-light{
+    padding: 1rem !important;
+}
+
+.navbar-toggler{
+    border-color: #fff !important;
+    border-radius: 1px !important;
+}
+
+.navbar-toggler:active,.navbar-toggler:focus{
+    outline: none !important;
+    outline-color: none !important;
+}
+.navbar-toggler-icon{
+    cursor: pointer;
+    background-image: url('./menu.png') !important;
+}
+
+.nav-link{
+    color: #FFF !important;
+}
+
+.logo-mobile{
+    width: 50%;
+    height: auto;
+}
+.section-container {
+    background-image: url('./paris.jpg');
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.social-networks{
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .logo-mobile{
+        width: 70%;
+    }
+    .social-networks{
+        width: 15%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    
+    .navbar-pc{
+        width: 25%;
+    }
+
+    .logo-pc{
+        width: 50%;
+    }
+    .navbar-menu-list{
+        width: 35%;
+    }
+    .navbar-menu-search{
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-pc{
+        width: 25%;
+    }
+    .logo-pc{
+        width: 60%;
+    }
+    .navbar-menu-list{
+        width: 40%;
+    }
+    .navbar-menu-search{
+        width: 35%;
+    }
+    .social-networks{
+        width: 25%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .logo-pc{
+        width: 50%;
+    }
+    .navbar-menu-list{
+        width: 30%;
+    }
+
+    .navbar-menu-search{
+        width: 45%;
+    }
+
+    .social-networks{
+        width: 25%;
+    }
+    .section-container {
+        background-position: top;
+    }
+
+}
